@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fishing", "Fishing\Fishing.csproj", "{DA3332EA-4D7E-4E6B-B936-DEA392EB9919}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Victim", "Victim\Victim.csproj", "{0728C9A3-5F34-4CBE-9633-FB7278C9EDF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA3332EA-4D7E-4E6B-B936-DEA392EB9919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3332EA-4D7E-4E6B-B936-DEA392EB9919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3332EA-4D7E-4E6B-B936-DEA392EB9919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3332EA-4D7E-4E6B-B936-DEA392EB9919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0728C9A3-5F34-4CBE-9633-FB7278C9EDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0728C9A3-5F34-4CBE-9633-FB7278C9EDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0728C9A3-5F34-4CBE-9633-FB7278C9EDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0728C9A3-5F34-4CBE-9633-FB7278C9EDF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
