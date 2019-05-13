@@ -18,7 +18,7 @@ namespace Victim.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Money(TransferModel transferModel)
         {
-            return Content(string.Format("Transfer {0} to {1} success!", transferModel.Amount, transferModel.TargetAccount));
+            return Content($"Transfer {transferModel.Amount} to {transferModel.TargetAccount} success!");
         }
 	}
 }
