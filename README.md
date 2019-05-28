@@ -8,3 +8,4 @@ Demo to show CSRF attack and AntiForgeryToken
 ![update-iisexpress-config.png](/Readme/update-iisexpress-config.png?raw=true "Update IISExpress Config")
 3. add the domain specified in step2 to hosts file
 ![update-hosts.png](/Readme/update-hosts.png?raw=true "Update Hosts")
+4. F5 to start the two sites
